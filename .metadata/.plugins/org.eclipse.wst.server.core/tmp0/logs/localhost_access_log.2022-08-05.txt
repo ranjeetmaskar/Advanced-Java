@@ -1,0 +1,9 @@
+127.0.0.1 - - [05/Aug/2022:17:09:09 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [05/Aug/2022:17:09:11 +0530] "GET /InsertStudentDB/Student.jsp HTTP/1.1" 200 562
+0:0:0:0:0:0:0:1 - - [05/Aug/2022:17:09:14 +0530] "GET /InsertStudentDB/ShowAllRecords HTTP/1.1" 200 2411
+0:0:0:0:0:0:0:1 - - [05/Aug/2022:17:09:20 +0530] "GET /InsertStudentDB/UpdateStudent?id=9 HTTP/1.1" 200 516
+0:0:0:0:0:0:0:1 - - [05/Aug/2022:17:09:40 +0530] "POST /InsertStudentDB/UpdateStudent HTTP/1.1" 405 752
+0:0:0:0:0:0:0:1 - - [05/Aug/2022:17:09:54 +0530] "GET /InsertStudentDB/ShowAllRecords HTTP/1.1" 200 2411
+0:0:0:0:0:0:0:1 - - [05/Aug/2022:20:15:38 +0530] "GET /InsertStudentDB/Student.jsp HTTP/1.1" 200 562
+0:0:0:0:0:0:0:1 - - [05/Aug/2022:20:15:46 +0530] "GET /InsertStudentDB/ShowAllRecords HTTP/1.1" 200 2411
+0:0:0:0:0:0:0:1 - - [05/Aug/2022:20:15:51 +0530] "GET /InsertStudentDB/UpdateStudent?id=9 HTTP/1.1" 200 516

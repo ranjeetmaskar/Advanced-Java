@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+    
+    <bean id="x" class="com.depend.X" depends-on="y"></bean>
+    <bean id="y" class="com.depend.Y" depends-on="z"></bean>
+    <bean id="z" class="com.depend.Z"></bean>
+    </beans>

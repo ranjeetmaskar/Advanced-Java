@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+ 
+ <bean id="c" class="com.autodetect.constructor.Category" autowire="autodetect">
+ 	<constructor-arg value="Life Insurance"></constructor-arg>
+ </bean>
+ <bean id="policy" class="com.autodetect.constructor.Policy">
+ 	<constructor-arg value="Term Policy"></constructor-arg>
+ 	<constructor-arg value="787878"></constructor-arg>
+ </bean>
+    
+ </beans>

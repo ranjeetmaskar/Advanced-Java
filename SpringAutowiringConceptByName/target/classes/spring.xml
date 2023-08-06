@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+    
+    <bean id="c" class="com.byname.Categories" autowire="byName">
+    <property name="name" value="Jeet"></property>
+    </bean>
+     <bean id="policy" class="com.byname.Policy">
+     <property name="planName" value="Life Insurance"></property>
+     <property name="planAmount" value="15000"></property>
+    </bean>
+    
+    </beans>

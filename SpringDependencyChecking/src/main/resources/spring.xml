@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+    
+    <!-- 1) When use  dependency-check="simple", then you need to call setter base primitive type methods compulsory.
+    	 2) When use  dependency-check="objects", then you need to call setter base Secondary type methods compulsory .
+    	 3) When use  dependency-check="all", then you need to call setter base primitive type & Secondary type methods compulsory.
+    	 4) When use  dependency-check="none", then you don't need to call setter base Secondary type methods compulsory.
+    	 -->
+    <bean id="e" class="com.checking.Employee" dependency-check="none">	
+    	<property name="name" value="Ranjeet"></property>
+    	<property name="address" ref="a"></property>
+    </bean>
+    <bean id="a" class="com.checking.Address">
+    	<property name="city" value="Kolhapur"></property>
+    	<property name="pincode" value="416218"></property>
+    </bean>
+    
+</beans>

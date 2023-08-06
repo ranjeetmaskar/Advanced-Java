@@ -1,0 +1,4 @@
+127.0.0.1 - - [14/Aug/2022:22:28:58 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [14/Aug/2022:22:29:00 +0530] "GET /InsertStudentDB/Student.jsp HTTP/1.1" 200 538
+0:0:0:0:0:0:0:1 - - [14/Aug/2022:22:29:50 +0530] "GET /InsertStudentDB/ShowAllRecords HTTP/1.1" 200 2620
+0:0:0:0:0:0:0:1 - - [14/Aug/2022:22:32:40 +0530] "GET /InsertStudentDB/UpdateStudent?id=15 HTTP/1.1" 200 601

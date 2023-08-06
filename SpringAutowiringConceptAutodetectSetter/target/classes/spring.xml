@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+    
+    <bean id="c" class="com.autowire.autodetect.Category" autowire="autodetect">
+    	<property name="name" value="Car Insurance"></property>
+    </bean>
+    <bean id="p" class="com.autowire.autodetect.Policy">
+    	<property name="policyName" value="Term Policy"></property>
+    	<property name="policyRate" value="90000"></property>
+    </bean>
+    
+ </beans>

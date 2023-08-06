@@ -1,0 +1,5 @@
+1660729162288	Rename resource 'AutowiringConceptByType'
+1660732257366	Rename resource 'SpringAutowiringConceptAutodetectConcept'
+1660733625217	Delete resource 'SpringAutowiringConceptAutodetect2'
+1660809272443	Delete resource 'SpringAutowiringConceptAutodetect'
+1660814305674	Delete resource 'DependsOnConcepts'
